@@ -61,8 +61,4 @@ public class FormatSelector implements CommandFormatter {
     private boolean hasVideoQualitySet() {
         return videoQuality != null;
     }
-
-    private boolean isFirstCommandFormatter(int i) {
-        return i == 0;
-    }
 }
