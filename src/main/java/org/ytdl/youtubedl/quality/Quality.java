@@ -36,6 +36,10 @@ public abstract class Quality implements CommandFormatter {
         return formatted;
     }
 
+    public FormatSelector and() {
+        return formatSelector;
+    }
+
     private boolean hasOptions() {
         return !options.isEmpty();
     }
